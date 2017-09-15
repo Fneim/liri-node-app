@@ -1,0 +1,26 @@
+{
+  "name": "liri-app",
+  "version": "1.0.0",
+  "description": "create liri node app to display your latest tweets",
+  "main": "liri.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fneim/liri-node-app.git"
+  },
+  "author": "Fargin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fneim/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/Fneim/liri-node-app#readme",
+  "dependencies": {
+    "inquirer": "^3.2.3",
+    "node-spotify-api": "^1.0.7",
+    "omdb": "^0.8.0",
+    "request": "^2.81.0",
+    "twitter": "^1.7.1"
+  }
+}
